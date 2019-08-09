@@ -94,9 +94,6 @@
     <Filter Include="源文件和头文件\公共的类\WinVersionHelper">
       <UniqueIdentifier>{dd5aaacf-0f59-47ca-a738-250b15c6bbbb}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件和头文件\对话框类\AcknowledgementDlg">
-      <UniqueIdentifier>{b5204c4a-c23b-4824-b31f-e41ca736b3ee}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件和头文件\对话框类\AboutDlg">
       <UniqueIdentifier>{1f240f1b-347d-4281-a4cf-18bfebfacb6b}</UniqueIdentifier>
     </Filter>
@@ -228,9 +225,6 @@
     <ClInclude Include="WinVersionHelper.h">
       <Filter>源文件和头文件\公共的类\WinVersionHelper</Filter>
     </ClInclude>
-    <ClInclude Include="AcknowledgementDlg.h">
-      <Filter>源文件和头文件\对话框类\AcknowledgementDlg</Filter>
-    </ClInclude>
     <ClInclude Include="AboutDlg.h">
       <Filter>源文件和头文件\对话框类\AboutDlg</Filter>
     </ClInclude>
@@ -251,6 +245,9 @@
     </ClInclude>
     <ClInclude Include="CVariant.h">
       <Filter>源文件和头文件\公共的类\CVariant</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawCommonEx.h">
+      <Filter>源文件和头文件\公共的类\DrawCommon</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -347,9 +344,6 @@
     <ClCompile Include="WinVersionHelper.cpp">
       <Filter>源文件和头文件\公共的类\WinVersionHelper</Filter>
     </ClCompile>
-    <ClCompile Include="AcknowledgementDlg.cpp">
-      <Filter>源文件和头文件\对话框类\AcknowledgementDlg</Filter>
-    </ClCompile>
     <ClCompile Include="AboutDlg.cpp">
       <Filter>源文件和头文件\对话框类\AboutDlg</Filter>
     </ClCompile>
@@ -370,6 +364,9 @@
     </ClCompile>
     <ClCompile Include="CVariant.cpp">
       <Filter>源文件和头文件\公共的类\CVariant</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawCommonEx.cpp">
+      <Filter>源文件和头文件\公共的类\DrawCommon</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
